@@ -41,3 +41,13 @@
     font-display: swap;
     src: url('/fonts/ubuntu-regular-400.woff2') format('woff2');
 }
+
+@utility container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+body{
+    font-family: var(--font-display);
+}
